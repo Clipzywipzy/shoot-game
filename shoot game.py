@@ -145,7 +145,7 @@ while running:
                     game_state = MENU
             elif game_state == MENU:
                 if event.key == pygame.K_1:
-                game_state = GAME
+                    game_state = GAME
                 elif event.key == pygame.K_2:
                     game_state = SETTINGS
             elif game_state == SETTINGS:
